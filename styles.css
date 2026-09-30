@@ -1,0 +1,70 @@
+:root {
+  --color-primary: #0071f8;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+}
+button,
+a {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: ;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  justify-content: space-between;
+  align-items: center;
+  padding: ;
+  border-radius: ;
+}
+
+nav ul {
+    gap: ;
+    align-items: center;
+    a {
+        color: ;
+        transition: all 0.3s ease;
+        font-size: ;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    &:hover {
+      background-color: ;
+    }
+  }
+}
