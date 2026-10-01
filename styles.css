@@ -573,16 +573,22 @@ footer {
 
   header {
     padding: 0 20px;
+    justify-content: space-between;
   }
 
   header nav {
     visibility: hidden;
   }
 
+  header .btn {
+    display: inline-flex;
+    margin-left: auto;
+  }
+
   .btn,
   .btn-outline {
-    padding: 12px 20px;
-    font-size: 0.7rem;
+    padding: 8px 10px;
+    font-size: .7rem;
   }
 
   .hero {
