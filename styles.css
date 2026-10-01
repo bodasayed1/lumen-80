@@ -579,16 +579,10 @@ footer {
   header nav {
     display: none;
   }
-
-  header .btn {
-    display: inline-flex;
-    margin-left: auto;
-  }
-
   .btn,
   .btn-outline {
     padding: 12px 20px;
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 
   .hero {
